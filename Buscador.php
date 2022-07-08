@@ -28,6 +28,9 @@
 
         <p>CEP: <?= $endereco->cep ?></p>
         <p>Cidade: <?= $endereco->localidade ?></p>
+        <p>Local: <?= $endereco->logradouro ?></p>
+        <p>Bairro: <?= $endereco->bairro ?></p>
+        <p>Cidade: <?= $endereco->localidade ?></p>
         <p>UF: <?= $endereco->uf ?></p>
         <p>DDD: <?= $endereco->ddd ?></p>
 
