@@ -11,10 +11,9 @@ function buscarCEP($cep)
     if (strlen($url) > 0) {
 
         return $url;
-
     } else {
 
         return "";
-        
     }
 }
+echo buscarCEP($_POST["cep"]);
